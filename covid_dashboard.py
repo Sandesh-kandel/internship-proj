@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.secret_key = 'Hi.. capital of new delhi is india'
 connection = pymysql.connect(host='127.0.0.1',
                             user='root',
-                            password='9868346087Sk./',
+                            password='xxxxxxxxxxxx./',
                             port=3306,
                             database='covid')
 def fetch_data_from_db():
@@ -168,7 +168,7 @@ connection.close() # Close the database connection
 def register():
     connection = pymysql.connect(host='127.0.0.1',
                             user='root',
-                            password='9868346087Sk./',
+                            password='xxxxxxxxxxxx./',
                             port=3306,
                             database='covid')
     if request.method == 'POST':
@@ -195,7 +195,7 @@ def register():
 def login():
     connection = pymysql.connect(host='127.0.0.1',
                             user='root',
-                            password='9868346087Sk./',
+                            password='xxxxxxxxxxxx./',
                             port=3306,
                             database='covid')
     if request.method == 'GET':
